@@ -1,0 +1,54 @@
+.bgContainerSelected {
+  background-color: #3ce40d;
+  padding: 5px;
+  border-radius: 4px;
+  color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: 4px;
+  margin-top: 2px;
+
+}
+.bgContainerUnselected {
+  padding: 5px;
+  border-radius: 4px;
+  color: black;
+  padding-left: 7px;
+  padding-right: 7px;
+  /* border: 1px solid gray; */
+  background-color: rgb(192, 219, 228);
+  margin: 4px;
+  margin-top: 2px;
+}
+
+.width {
+  width: 50%;
+}
+.bookbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+img.mr10 {
+  width: 30px;
+  height: 30px;
+}
+
+.selected-tab {
+  border: 2px solid #0054a6;
+  border-radius: 2px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.un-selected-tab {
+  border-radius: 2px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

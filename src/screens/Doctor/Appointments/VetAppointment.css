@@ -1,0 +1,24 @@
+.vetAppint-blue-back {
+  width: 50px;
+  height: 50px;
+  background: #0054a6;
+  display: flex;
+  border-radius: 3px;
+}
+.vetAppint-con-type {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #e4eff4;
+  border-radius: 30px;
+  padding: 4px 15px;
+}
+.vetAppint-flex-con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.vetAppint-flex-con > div {
+  width: auto;
+}

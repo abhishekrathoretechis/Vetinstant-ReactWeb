@@ -1,0 +1,321 @@
+.CustomCard-main {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.CustomCard-main-bill {
+  margin-top: 20px;
+  align-self: center;
+  margin-left: 35px;
+}
+.css-owom0f-MuiPaper-root-MuiCard-root {
+  padding: 10px !important;
+}
+
+.consultation-type {
+  background: #e4eff4;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-family: "Montserrat";
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CustomCard-empty-img {
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background: #add8e6;
+}
+
+.CustomCard-empty-img3 {
+  border-radius: 5px;
+  height: 125px;
+  width: 95px;
+  background: #add8e6;
+}
+
+.CustomCard-img {
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.CustomCard-img2 {
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.CustomCard-img3 {
+  height: 125px;
+  width: 100%;
+  object-fit: contain;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.CustomCard-back {
+  height: 125px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.CustomCard-no-img3 {
+  background: #555a64;
+  color: #fff;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CustomCard-img3-bill {
+  border-radius: 5px;
+  height: 50px;
+  width: 60px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.CustomCard-back-bill {
+  /* background: #f5f1f180; */
+  background-color: white;
+  height: 170px;
+  width: 250px;
+  /* border-top-color: #ff754a; */
+  border-top-width: 5px;
+  border-top-style: solid;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.CustomCard-back-appointment {
+  background-color: white;
+  /* height: 140px; */
+  width: 100%;
+  /* border-top-color: #ff754a; */
+  border-top-width: 5px;
+  border-top-style: solid;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.CustomCard-back-appointment-vet {
+  background-color: white;
+  height: 90px;
+  width: 100%;
+  /* border-top-color: #ff754a; */
+  border-top-width: 5px;
+  border-top-style: solid;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.meeting-doctor {
+  color: #606e80;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.parentcontainer {
+  align-items: center;
+  /* gap:18px */
+  justify-content: space-between;
+}
+.balanceduered {
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: red;
+  margin-bottom: 5px;
+}
+.balancedueblue {
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: blue;
+  margin-bottom: 5px;
+}
+.balancedueyellow {
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: yellow;
+  margin-bottom: 5px;
+}
+.datecontainer {
+  display: flex;
+  align-items: center;
+  /* gap:65px; */
+  justify-content: space-between;
+}
+.trdate {
+  color: #75808a;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.paymentstatuspaid {
+  background-color: #c9fdc5;
+  color: #339903;
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.paymentstatusunpaid {
+  background-color: #fadcdc;
+  color: #f50c0c;
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.paymentstatuspartial {
+  background-color: #fff5e6;
+  color: #e07c05;
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.paymentstatusnew {
+  background-color: #c9fdc5;
+  color: #339903;
+  font-size: 12px;
+  padding: 3px 7px;
+  border-radius: 5px;
+  font-style: "Montserrat";
+  font-weight: 500;
+}
+.breakline {
+  width: 500px;
+  height: 0.5px;
+  background-color: #dcddde;
+}
+
+.topt {
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.iconcontainer {
+  align-items: center;
+  gap: 5px;
+}
+.conttype {
+  /* background-color: #b18ec6; */
+  position: absolute;
+  color: #e4eff4;
+  font-size: 8px;
+  right: 0;
+  top: 0;
+  font-family: "Montserrat";
+  font-weight: 500;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 1030px) {
+  .CustomCard-main-bill {
+    margin-left: 5px;
+  }
+  .CustomCard-back-bill {
+    height: 185px;
+    width: 230px;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 401px) {
+  .CustomCard-main {
+    margin: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .CustomCard-main {
+    margin: 10px;
+  }
+}
+
+.CustomCard-secondary-text {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+}
+.maincontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap:10px; */
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 18px;
+}
+
+/* .ImageContainer{
+  width: 100px;
+  height: 100px;
+} */
+
+.top {
+  display: flex;
+  font-size: 16px;
+  gap: 5px;
+  margin-bottom: 5;
+  line-height: 2;
+}
+.buttoncontainernew {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+
+  margin-top: -26px;
+}
+
+.petNameText {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: black;
+  font-size: 16px;
+  margin-right: 5;
+}
+
+.genderTextPink {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #ff71cf;
+  font-size: 16px;
+}
+
+.breedName {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #626971;
+  font-size: 14px;
+  margin-bottom: 5;
+  line-height: 3;
+}
+
+.newImage {
+  border-radius: 5px;
+  height: 115px;
+  width: 110px;
+  /* object-fit: contain; */
+}
+
+.rightside {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  background-color: #eae6e6;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  justify-content: space-between;
+}

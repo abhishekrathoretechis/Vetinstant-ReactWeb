@@ -1,0 +1,153 @@
+.settings-left-con {
+  background: #fff;
+  border-radius: 2px;
+  margin-left: -5px;
+}
+.settings-right-con {
+  background: #fff;
+  border-radius: 2px;
+  margin-right: -5px;
+}
+.settings-box {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #d3d3d3;
+}
+.settings-img {
+  height: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.access-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+ 
+}
+.access-left-main{
+  width: 85%;
+  height: 40px;
+}
+.access-toggle{
+   display: flex;
+   align-items: center;
+}
+.access-edit-text{
+  margin-left: 5px;
+  color: red;
+  font-weight:bold;
+  cursor: pointer;
+}
+.roles-column{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.roles-text{
+  color: black;
+  font-weight: 700;
+  margin-top: 7px;
+}
+.access-button-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+.access-button{
+ margin-right: 20px;
+}
+.bottom-row{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  
+}
+.row-date{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+.star{
+  color: red;
+}
+.date-box{
+ width: 33%;
+}
+.time-box{
+  width: 47%;
+ }
+/* .text{
+  font-weight: 200;
+  font-size: 13px;
+  color: gray;
+} */
+.font{
+  font-size: 13px;
+}
+.row-checkbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.time-width{
+  width: 70%;
+  justify-content: flex-start;
+}
+.minus-img{
+  width: 20px;
+  height: 20px;
+}
+.button{
+  margin-right: 10px;
+  justify-content: flex-end;
+  width: 15%;
+  display: flex;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+.profile{
+  width: 35px;
+  height: 35px;
+}
+.name{
+  font-size: 11px;
+  font-weight: 500;
+  align-items: center;
+  margin-left: 10px;
+  justify-content: center;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+@media (min-width: 900px) {
+  .settings-left-con {
+    margin-right: 10px;
+  }
+
+  .settings-right-con {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 899px) {
+  .settings-left-con {
+    margin-right: -5px;
+  }
+
+  .settings-right-con {
+    margin-top: 20px;
+    margin-left: -5px;
+  }
+}

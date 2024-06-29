@@ -1,0 +1,20 @@
+.clinic-mod-btn-pos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Radio-button {
+  display: flex;
+  flex-direction: row;
+}
+.Date-time {
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .clinic-mod-btn-pos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

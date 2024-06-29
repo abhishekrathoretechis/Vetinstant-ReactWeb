@@ -1,0 +1,24 @@
+.DocDash-count-card {
+  background: #fff;
+  height: 100px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.DocDash-left-card {
+  background: #fff;
+  height: 300px;
+  border-radius: 10px;
+  padding: 15px;
+  overflow-y: scroll;
+}
+.DocDash-no-rec {
+  height: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.DocDash-cal {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}

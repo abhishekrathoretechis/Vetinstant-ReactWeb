@@ -1,0 +1,121 @@
+.Login-main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background: #e5e4e2;
+}
+.Login-left-con {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #0054a6;
+  flex: 1;
+}
+.Login-right-con {
+  background-color: #fff;
+  /* margin: 5%; */
+  width: 110%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15%;
+  padding-bottom: 20%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  height: 100vh;
+}
+.Login-welcome-text {
+  font-family: "Montserrat";
+  color: #000;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.Login-display-coloumn {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.Login-left-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.Login-vet-logo {
+  width: 50%;
+  /* margin-top: 3%; */
+}
+.Login-main-img {
+  /* margin-top: 1%; */
+  height: 100vh;
+  margin-right: 30%;
+  object-fit: contain;
+}
+.Login-btn {
+  width: 100%;
+}
+.Login-center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.key {
+  height: 20px;
+  width: 20px;
+}
+.Forgot-text {
+  color: #f2451c;
+  font-family: "Montserrat";
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 901px) {
+  .Login-welcome-text {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+  .Login-btn {
+    width: 30%;
+  }
+  .Login-welcome-text {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 401px) {
+  .Login-btn {
+    width: 50%;
+  }
+  .Login-welcome-text {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Login-btn {
+    width: 100%;
+  }
+  .Login-welcome-text {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Login-left-con {
+    display: none;
+  }
+}

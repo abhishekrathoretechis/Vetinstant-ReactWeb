@@ -1,0 +1,29 @@
+.Phar-Pres-btn {
+  width: 10%;
+  float: right;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+    .Phar-Pres-btn {
+      width: 15%;
+      float: right;
+      margin-right: 15px;
+    }
+  }
+
+@media only screen and (max-width: 600px) and (min-width: 401px) {
+  .Phar-Pres-btn {
+    width: 25%;
+    float: right;
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Phar-Pres-btn {
+    width: 30%;
+    float: right;
+    margin-right: 10px;
+  }
+}

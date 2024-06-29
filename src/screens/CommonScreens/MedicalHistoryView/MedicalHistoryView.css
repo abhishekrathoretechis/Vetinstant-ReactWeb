@@ -1,0 +1,18 @@
+.MedHis-img {
+  /* width: 30px; */
+  height: 30px;
+  object-fit: contain;
+}
+.MedHis-flex-sb {
+  flex-direction: "row";
+  justify-content: "space-between";
+  align-items: "center";
+}
+.MedHis-btn {
+  width: 40px;
+  height: 40px;
+  border: "2px solid #0054a6";
+  border-radius: 50px;
+  justify-content: "center";
+  align-items: "center";
+}

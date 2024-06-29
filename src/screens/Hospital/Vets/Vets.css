@@ -1,0 +1,31 @@
+.clinic-mod-btn-pos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.slot{
+  background-color: rgb(218, 236, 243);
+  padding: 8px;
+  width: 90%;
+  height: auto;
+  border-radius: 4px;
+  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.view{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+@media screen and (max-width: 1200px) {
+  .clinic-mod-btn-pos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

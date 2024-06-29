@@ -1,0 +1,110 @@
+.servicesbox {
+  background-color: #fff;
+  height: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-left: 20px;
+    margin-right: 20px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 2px;
+}
+
+div.footerbox {
+  background-color: #fff;
+  height: 190px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: 60%;
+}
+.headingstyle {
+  font-family: "Montserrat-Bold";
+  color: #0054a6;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.serviceinput {
+  border: solid 0.5px lightgray;
+  padding-left: 5px;
+  border-radius: 8px;
+  width: 350px;
+  height: 40px;
+}
+
+.serviceinput::placeholder {
+  color: red;
+  font-style: italic;
+}
+
+.servicecontainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.servicecontainermain {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.add-button {
+  margin-top: 20px;
+}
+
+.headingstylenew {
+  font-family: "Montserrat-Bold";
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.grooming {
+  font-family: "Montserrat";
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+.footercontainer {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.footertable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.footertable th,
+.footertable td {
+  padding: 8px; /* Add padding */
+  text-align: center;
+}
+
+/* Style horizontal line for header row */
+.footertable th {
+  border-bottom: 1px solid #ddd; /* Add horizontal line at the bottom of the header row */
+}
+
+/* Style horizontal line for the first row */
+.footertable tr:first-child td {
+  border-bottom: 1px solid #ddd; /* Add horizontal line at the bottom of the first row */
+}
+
+/* Remove top border from all rows except the first one */
+.footertable tr:not(:first-child) {
+  border-top: none;
+}
+
+.deletebutton {
+  color: red;
+}

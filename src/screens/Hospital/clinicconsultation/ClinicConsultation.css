@@ -1,0 +1,164 @@
+.custom-checkbox {
+  /* Increase size */
+  transform: scale(1.5);
+  margin-right: 10px; /* Adjust margin as needed */
+  font-family: "Montserrat";
+}
+
+.consultation-white-con {
+  background: #fff;
+  padding: 20px;
+  margin: 15px -5px 0px;
+}
+
+.custom-checkbox:checked {
+  /* Change color of tick when checked */
+  background-color: blue; /* Blue tick */
+}
+
+.tickboxcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.headingstylebox {
+  font-family: "Montserrat";
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+.subheading {
+  font-family: "Montserrat";
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+.headingstylenew1 {
+  font-family: "Montserrat";
+  color: #0054a6;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.mybox {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.mybox th,
+.mybox td {
+  border: 1px solid #333333; /* Border color */
+  padding: 8px;
+  text-align: center;
+}
+
+.mybox th {
+  background-color: lightgray;
+}
+
+.mybox td {
+  background-color: white;
+}
+
+/* .my-table th[colspan="2"] {
+    text-align: center;
+} */
+
+.datetimecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 150px;
+}
+
+.linecontainer {
+  height: 0.5px;
+  width: "100%";
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+.availabilty {
+  display: flex;
+
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.plus {
+  height: 20px;
+}
+
+.calenderbox {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.weekdays {
+  display: flex;
+  gap: 10px;
+}
+
+.profile {
+  display: flex;
+  gap: 10px;
+}
+.footernew {
+  display: flex;
+  gap: 90px;
+
+  align-items: center;
+}
+
+.date {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.tablesubcontainer {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.virtualhours {
+  margin-bottom: 30px;
+}
+
+/* Styles for mobile screens */
+@media only screen and (max-width: 600px) {
+  .tickboxcontainer {
+    flex-direction: column; /* Stack checkboxes vertically */
+    gap: 10px; /* Add spacing between checkboxes */
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .datetimecontainer {
+    flex-direction: column; /* Stack date and time elements vertically */
+    gap: 10px; /* Add spacing between elements */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .footernew {
+    flex-direction: column; /* Stack footer elements vertically */
+    gap: 10px; /* Add spacing between elements */
+  }
+
+  .tablesubcontainer {
+    overflow-x: auto; /* Enable horizontal scrolling for tables */
+  }
+
+  .profile {
+    width: 35px;
+    height: 35px;
+    margin-right: 191px;
+  }
+
+  .weekdays {
+    display: flex;
+    gap: 10px;
+    /* margin-right: 212px; */
+  }
+}

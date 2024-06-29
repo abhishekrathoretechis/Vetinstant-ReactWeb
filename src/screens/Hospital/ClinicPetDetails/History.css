@@ -1,0 +1,58 @@
+.billingcontainer {
+  width: 100%;
+  padding-left: 35%;
+}
+.txtstyle {
+  color: #929fb1;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.amounttxtcontainer {
+  background-color: #cbf6a0;
+  padding: 5px;
+}
+.amounttext {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #5d9911;
+}
+.balancecontainer {
+  background-color: #bfd0d4;
+  padding: 5px;
+}
+.balancetext {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #0054a6;
+}
+.savebutton {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.selecttypetext {
+  color: #929fb1;
+  margin-bottom: 6px;
+}
+
+.pricecontainer {
+  background-color: #bfd0d4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.pricetext {
+  color: #0054a6;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}

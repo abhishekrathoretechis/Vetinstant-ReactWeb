@@ -1,0 +1,306 @@
+.left {
+  background-color: white;
+  width: 47%;
+  height: auto;
+  margin-left: 20px;
+  padding: 5px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.colum {
+  align-items: flex-start;
+  flex-direction: column;
+  display: flex;
+}
+.subTitle-text {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.second-select {
+  width: 95%;
+  margin-left: 3px;
+  margin-right: 10px;
+}
+.search-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.searchRow-btn-space {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+.searchRow-size {
+  display: flex;
+  width: 70%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.box-shadow {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.row-con-cen {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.balancecontainerpayment {
+  background-color: #bfd0d4;
+  padding: 10px;
+  border-radius: 5px;
+}
+.amounttxtcontainerpayment {
+  background-color: #cbf6a0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.date-container {
+  width: 95%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.rightcontainer-left-text {
+  color: rgba(0, 84, 166, 1);
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.text-row {
+  flex-direction: row;
+  display: flex;
+  margin-right: 10px;
+  margin: 2px;
+}
+.calender-image {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.calender-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+.text-row-last {
+  flex-direction: row;
+  display: flex;
+  margin-right: 10px;
+  margin: 2px;
+  margin-bottom: 30px;
+}
+
+.bigbox {
+  display: flex;
+  flex-direction: row;
+}
+.petname {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.petnamenew {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bg {
+  background-color: aqua;
+}
+
+.com-mart {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.first {
+  display: flex;
+  align-items: flex-start;
+
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.com-martv {
+  width: 210%;
+  background-color: white;
+  padding: 20px;
+  margin-top: -20px;
+}
+.trdatenew {
+  color: #75808a;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.CustomCard-back-bill-payment {
+  /* background: #f5f1f180; */
+  height: 170px;
+  width: 250px;
+  /* border-top-color: #FF754A; */
+  border-top-width: 5px;
+  border-top-style: solid;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.downloadbutton {
+  display: flex;
+  justify-content: center;
+  width: 200%;
+}
+
+.mainbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.hoverable:hover {
+  /* Add your hover styles here */
+  cursor: pointer;
+  /* For example: */
+  background-color: lightgray;
+}
+
+.newtext {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+.view-buttons {
+  display: flex;
+  gap: 0.8px;
+  margin-top: 7px;
+}
+.daybutton {
+  background-color: #f5f6f7;
+  border-radius: 2px;
+  padding: 18px;
+  color: #181d25;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weekbutton {
+  background-color: #f5f6f7;
+  border-radius: 2px;
+  padding: 18px;
+  color: #bbbbbb;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textfield {
+  gap: 20px;
+}
+
+.allselect {
+  margin-left: 100px;
+  width: 25%;
+}
+
+.togglebutton {
+  margin-left: 140px;
+}
+
+.button-container {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1030px) {
+  .allselect {
+    margin-left: 50px;
+    width: 25%;
+  }
+  .togglebutton {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .first,
+  .buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Optionally change alignment for better mobile layout */
+  }
+  .com-martv {
+    width: 120%;
+  }
+  .mainbox {
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .allselect {
+    margin-left: 10px;
+    width: 25%;
+  }
+  .togglebutton {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .first,
+  .buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Optionally change alignment for better mobile layout */
+  }
+  .com-martv {
+    width: 120%;
+  }
+  .mainbox {
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-1thf0zw-MuiButtonBase-root-MuiButton-root {
+    padding: 5vh;
+  }
+
+  .togglebutton {
+    margin-left: 1px;
+  }
+  .allselect {
+    margin-left: 1px;
+    width: 25%;
+  }
+}

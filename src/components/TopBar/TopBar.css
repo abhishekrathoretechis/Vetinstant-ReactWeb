@@ -1,0 +1,37 @@
+.topBar-main {
+  background-color: #fff;
+  min-height: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 8px #464e5f05;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 401px) {
+  .topBar-main {
+    background-color: #fff;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .topBar-main {
+    background-color: #fff;
+    height: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+}
+
+.topBar-select
+  .css-1sp8c2x-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 4.5px 14px;
+}
